@@ -105,5 +105,5 @@ Para configurar um novo redirecionamento em seu proxy reverso, basta seguir os p
 6. Reinicie o serviço do Nginx
 
     ```sh
-    sudo systemctl restart nginx
+    sudo systemctl restart nginx
     ```
