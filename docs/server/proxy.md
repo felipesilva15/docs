@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+tags: [Nginx, Linux, Proxy]
 ---
 
 # Proxy reverso
