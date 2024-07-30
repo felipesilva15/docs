@@ -1,0 +1,10 @@
+{
+  "label": "Angular",
+  "position": 2,
+  "link": {
+    "slug": "angular",
+    "type": "generated-index",
+    "description": "Instruções, dicas e boas práticas referente ao framework Angular de Typescript."
+  }
+}
+  

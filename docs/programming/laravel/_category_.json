@@ -1,0 +1,10 @@
+{
+  "label": "Laravel",
+  "position": 1,
+  "link": {
+    "slug": "laravel",
+    "type": "generated-index",
+    "description": "Instruções, dicas e boas práticas referente ao framework Laravel de PHP."
+  }
+}
+  
