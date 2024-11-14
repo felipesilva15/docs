@@ -64,19 +64,23 @@ Para implementar a autenticação com tokens JWT, basta seguir os passos abaixo.
     ]
     ```
 
-3. Configure sua model de usuários (Normalmente é utizada a model `User`) e cole os métodos abaixo.
+3. Configure sua model de usuários (Normalmente é utizada a model `User`), implemente a interface `JWTSubject` cole os métodos abaixo.
 
     ```php
-    public function getJWTIdentifier() {
-        return $this->getKey();
-    }
+    class User extends Authenticatable implements JWTSubject
+    {
 
-    public function getJWTCustomClaims() {
-        return [];
-    }
+        public function getJWTIdentifier() {
+            return $this->getKey();
+        }
 
-    public function getAuthPassword() {
-        return $this->{{ Seu campo de senha }};
+        public function getJWTCustomClaims() {
+            return [];
+        }
+
+        public function getAuthPassword() {
+            return $this->{{ Seu campo de senha }};
+        }
     }
     ```
 
