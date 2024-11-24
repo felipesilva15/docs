@@ -1,0 +1,10 @@
+{
+  "label": "Ferramentas",
+  "position": 3,
+  "link": {
+    "slug": "tools",
+    "type": "generated-index",
+    "description": "Instruções para instalar e configurar algumas ferramentas em seu computador."
+  }
+}
+  
