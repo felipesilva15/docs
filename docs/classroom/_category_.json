@@ -1,0 +1,10 @@
+{
+  "label": "Aulas",
+  "position": 4,
+  "link": {
+    "slug": "classroom",
+    "type": "generated-index",
+    "description": "Aulas amadoras de diversos tipos de assuntos envolvendo a área de TI."
+  }
+}
+  

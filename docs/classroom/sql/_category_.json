@@ -1,0 +1,10 @@
+{
+  "label": "SQL",
+  "position": 2,
+  "link": {
+    "slug": "sql",
+    "type": "generated-index",
+    "description": "Aulas referentes a SQL como termos comuns, diagramação, TSQL etc."
+  }
+}
+  

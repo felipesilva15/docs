@@ -27,7 +27,7 @@ Para instalar o SQL Server e o Management Studio, basta seguir os passos abaixo:
 
 7. Avance a configuração do servidor.
 
-8. Nesta seção, selecione o **modo de autenticação do Windows** e digite a senha para usuário administrador (SA).
+8. Nesta seção, selecione o **modo de autenticação do Windows** e avance.
 
 ### SQL Server Management Studio
 
