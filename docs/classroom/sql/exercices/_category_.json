@@ -1,0 +1,10 @@
+{
+  "label": "Exercícios",
+  "position": 2,
+  "link": {
+    "slug": "exercices",
+    "type": "generated-index",
+    "description": "Aulas referente ao SQL."
+  }
+}
+  

@@ -1,0 +1,10 @@
+{
+  "label": "Aulas",
+  "position": 2,
+  "link": {
+    "slug": "classes",
+    "type": "generated-index",
+    "description": "Aqui você encontra todas as aulas referente ao SQL Server. Siga a ordem numérica!"
+  }
+}
+  

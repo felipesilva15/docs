@@ -3,4 +3,4 @@ sidebar_position: 2
 tags: [SQL, SQL Server]
 ---
 
-# Aula 01
+# 002 - Entidades e atributos
