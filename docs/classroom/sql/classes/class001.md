@@ -3,74 +3,111 @@ sidebar_position: 1
 tags: [SQL, SQL Server]
 ---
 
-# 001 - O que é o SQL?
+# 001 - Introdução ao SQL
 
-Tendo o SQL Server instalado em seu computador, você irá aprender o que é o SQL, banco de dados, para que serve e como criar o seu primeiro banco de dados para ser utilizado nas próximas aulas.
+Nesta primeira aula, você aprenderá o que é o SQL, para que ele serve e como criar seu primeiro banco de dados no SQL Server.  
 
-## O que é e para que serve o SQL?
+Se você já tem o SQL Server instalado, siga os passos desta aula para começar a explorar o mundo dos bancos de dados!  
 
-O SQL é uma sigla para _Structured Query Language_, que é uma linguagem de programação que serve para minular um bancos de dados reclacional.
+---
 
-## Banco de dados
+## O que é SQL?
 
-### O que é e para que serve?
+SQL é a sigla para _Structured Query Language_ (Linguagem de Consulta Estruturada). Ele é um conjunto de comandos utilizados para **criar, consultar, atualizar e gerenciar** bancos de dados relacionais.  
 
-Um banco de dados nada mais é do que um sistema que armazena as informações de forma organizada, estruturada, eficiente e, juntamente com ele, acompanha um sistema de gerenciamento de banco de dados (SGBD) que serve para manipular os dados armazenados banco de dados através de comandos escritos na linguagem de programação SQL.
+Em outras palavras, o SQL permite que você interaja com um banco de dados para armazenar e recuperar informações de forma organizada e eficiente.
 
-Nas aulas iremos utilizar o SQL Server, mas existem diversos sistemas de banco de dados disponibilizados para tal função, sendo eles:
+### Para que serve o SQL?
 
-- MySQL
-- Oracle
-- PostgreSQL
-- MariaDB
-- IBM DB2
+Imagine um site de uma loja online. Ele precisa armazenar informações sobre clientes, produtos, pedidos e pagamentos. O SQL é a ferramenta que permite **manipular esses dados**, garantindo que eles sejam armazenados corretamente e possam ser acessados de forma rápida e segura.  
 
-### Como funciona?
+Com o SQL, podemos:
 
-Um **banco de dados relacional** armazena seus dados em forma de tabelas com linhas e colunas, no quais podem ou não se relacionar com outras tabelas. Fazendo uma comparação leiga... Podemos utilizar o Excel como exemplo.
+- Criar e organizar bancos de dados;
+- Inserir, modificar e excluir dados;
+- Consultar informações de maneira eficiente;
+- Controlar o acesso e a segurança dos dados.
 
-Um software de banco de dados é instalado em um servidor onde poderão ser criados diversos bancos de dados independentes, onde terão tabelas com linhas e colunas.
+---
 
-Por exemplo, podemos ter uma biblioteca **(Banco de dados)**, no qual possuem livros, clientes e empréstimos **(Tabelas)**, que por suas vez cada um deles possuem características como nome, idade, etc. **(Colunas)** em muitas quantidades **(Linhas)**.
+## O que é um banco de dados?
 
-## Primeiro contato
+Um **banco de dados** é um sistema utilizado para armazenar e organizar informações de forma estruturada.  
+
+Junto com ele, temos o **Sistema de Gerenciamento de Banco de Dados (SGBD)**, que é o software responsável por manipular os dados armazenados, utilizando comandos SQL.  
+
+### Principais SGBDs
+
+Existem diferentes sistemas de banco de dados disponíveis. Alguns dos mais utilizados são:
+
+- **SQL Server** (Que usaremos nestas aulas)
+- **MySQL**
+- **Oracle**
+- **PostgreSQL**
+- **MariaDB**
+- **IBM DB2**
+
+### Como funciona um banco de dados relacional?
+
+Os bancos de dados relacionais armazenam dados em **tabelas** organizadas em **linhas e colunas**.  
+
+Podemos compará-los a uma **planilha do Excel**, onde:  
+
+- Cada **tabela** representa um conjunto de informações.
+- Cada **linha** representa um registro individual dentro dessa tabela.
+- Cada **coluna** representa uma característica dos registros armazenados.  
+
+---
+
+## Primeiro contato com o SQL Server
 
 ### Acessando o SGBD
 
-Siga o passo a passo para criar seu primeiro banco de dados:
+Agora que já entendemos o conceito de bancos de dados, vamos acessar o SQL Server Management Studio para executar nosso primeiro comando.
 
-1. Abra o SQL Server Management Studio (SGBD)
+1. Abra o **SQL Server Management Studio (SSMS)**.
+2. Conecte-se ao servidor clicando no botão **"Conectar"**.
+3. Clique em **"Nova consulta"** para abrir o editor de comandos SQL.
 
-2. Conecte ao seu servidor clicando no botão _"Conectar"_
+Agora estamos prontos para executar comandos SQL!
 
-3. Clique no botão _"Nova consulta"_.
+---
 
-Pronto, irá abrir um bloco de notas no qual poderão ser inseridos e executados comandos SQL.
+## Sintaxe do SQL
 
-### Sintaxe SQL
+A sintaxe do SQL segue um padrão estruturado para que os comandos funcionem corretamente. Vamos entender os principais elementos:
 
-Sintaxe é o padrão de escritas de comandos para que eles possam funcionar. Abaixo você verá algumas regras e como normalmente funciona a sintaxe de um código:
+1. **Cláusulas** – São palavras reservadas da linguagem SQL usadas para executar operações (exemplo: `CREATE DATABASE`).
+2. **Parâmetros** – São valores fornecidos às cláusulas para definir o que será processado (exemplo: o nome do banco de dados).
+3. **Cláusula de finalização** – Indica o fim do comando e pode ser representada por `GO` ou `;`.
 
-1. Cláusulas - São palavras reservadas da linguagem no qual serão complementadas para executar algo em seu banco de dados.
-2. Parâmetros - São informações variáveis para informar a cláusula o que ela deve processar
-3. Cláusula de finalização - São cláusulas que informam quando um código está em seu fim e deve ser executado. Eles são representados por `GO` ou `;`.
+---
 
-### Criando o seu primeiro banco de dados
+## Criando seu primeiro banco de dados
 
-Para criar um banco de dados basta utilizar o comando abaixo:
+Agora vamos criar um banco de dados chamado `AulaSQL`. Para isso, utilizamos o seguinte comando:
 
 ```sql
 CREATE DATABASE AulaSQL;
 ```
 
-Vamos separar este comando com o que foi explicado no tópico anterior:
+### Explicação do comando
 
-- `CREATE DATABASE`: Está é a cláusula para criação de um novo banco de dados.
-- `AulaSQL`: Este é o parâmetro para criação de um banco de dados, onde neste caso é o nome do nosso banco de dados.
-- `;`: Esta é a cláusula de finalização do nosso comando.
+- `CREATE DATABASE`: Comando para **criar** um novo banco de dados.
+- `AulaSQL`: Nome do banco de dados que estamos criando.
+- `;`: Indica o fim do comando.
 
-Para executarmos este comando basta teclar F5.
+**Para executar esse comando, basta pressionar `F5` no SQL Server Management Studio.**  
+
+Após isso, o banco de dados `AulaSQL` será criado e estará pronto para ser usado nas próximas aulas!
+
+---
 
 ## Conclusão
 
-Nesta aula aprendemos o básico do SQL e como podemos escrever nosso primeiro comando para criação de um banco de dados.
+Nesta aula, aprendemos:
+
+- O que é SQL e para que ele serve.  
+- O conceito de banco de dados e como ele organiza informações.  
+- Como acessar o SQL Server e executar comandos.  
+- Como criar o nosso primeiro banco de dados.
