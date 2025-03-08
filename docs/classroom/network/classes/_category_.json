@@ -1,0 +1,10 @@
+{
+  "label": "Aulas",
+  "position": 2,
+  "link": {
+    "slug": "classroom/network/classes",
+    "type": "generated-index",
+    "description": "Aqui você encontra todas as aulas referente a redes. Siga a ordem dos arquivos!"
+  }
+}
+  

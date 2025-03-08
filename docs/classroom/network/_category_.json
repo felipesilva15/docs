@@ -1,0 +1,10 @@
+{
+  "label": "Redes de computadores",
+  "position": 3,
+  "link": {
+    "slug": "classroom/network",
+    "type": "generated-index",
+    "description": "Aulas referentes a redes de computadores, HTTP, Postman, internet etc."
+  }
+}
+  
