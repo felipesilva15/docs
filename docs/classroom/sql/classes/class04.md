@@ -3,7 +3,7 @@ sidebar_position: 4
 tags: [SQL, SQL Server]
 ---
 
-# 004 - Relacionamento entre tabelas
+# 04 - Relacionamento entre tabelas
 
 Ao trabalhar com bancos de dados relacionais, é fundamental compreender como as tabelas se relacionam entre si. Nesta aula, você aprenderá sobre os tipos de relacionamento entre tabelas, como criar essas relações e como utilizá-las para recuperar informações de maneira eficiente.
 

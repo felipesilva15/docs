@@ -3,7 +3,7 @@ sidebar_position: 2
 tags: [SQL, SQL Server]
 ---
 
-# 002 - Entidades e Atributos
+# 02 - Entidades e Atributos
 
 Agora que você já sabe o que é um banco de dados e criou o seu primeiro, chegou a hora de entender como organizar as informações dentro dele. Nesta aula, vamos falar sobre **entidades e atributos**, dois conceitos fundamentais para estruturar seus dados corretamente.
 

@@ -3,7 +3,7 @@ sidebar_position: 6
 tags: [SQL, SQL Server]
 ---
 
-# 006 - Stored Procedures, Views e Transactions
+# 06 - Stored Procedures, Views e Transactions
 
 Nesta aula, aprenderemos sobre três conceitos fundamentais do SQL: **Stored Procedures**, **Views** e **Transactions**. Esses recursos permitem maior eficiência e segurança na manipulação de dados em um banco de dados relacional.
 

@@ -2,7 +2,7 @@
   "label": "SQL",
   "position": 2,
   "link": {
-    "slug": "sql",
+    "slug": "classroom/sql",
     "type": "generated-index",
     "description": "Aulas referentes a SQL como termos comuns, conceitos básicos, TSQL etc."
   }

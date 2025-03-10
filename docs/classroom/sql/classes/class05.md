@@ -3,7 +3,7 @@ sidebar_position: 5
 tags: [SQL, SQL Server]
 ---
 
-# 005 - Consultas avançadas
+# 05 - Consultas avançadas
 
 Nesta aula, aprenderemos sobre consultas SQL mais avançadas, utilizando os comandos `WHERE`, `ORDER BY`, `HAVING`, `GROUP BY` e algumas funções mais utilizadas para manipulação de dados e agrupamentos.
 

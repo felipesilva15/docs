@@ -3,7 +3,7 @@ sidebar_position: 1
 tags: [SQL, SQL Server]
 ---
 
-# 001 - Introdução ao SQL
+# 01 - Introdução ao SQL
 
 Nesta primeira aula, você aprenderá o que é o SQL, para que ele serve e como criar seu primeiro banco de dados no SQL Server.  
 

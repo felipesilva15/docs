@@ -3,7 +3,7 @@ sidebar_position: 3
 tags: [SQL, SQL Server]
 ---
 
-# 003 - Principais comandos SQL para CRUD  
+# 03 - Principais comandos SQL para CRUD  
 
 Agora que já aprendemos sobre **entidades e atributos**, chegou o momento de interagir com os dados do banco!  
 
